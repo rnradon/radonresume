@@ -2603,4 +2603,39 @@ footer .copyright span:last-child::after {
 	background: #000000;
 }
 
+
+
+
+#pdf-block {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 600;
+}
+#pdf-block a {
+	text-decoration: none;
+	border: 0 none;
+	display: block;
+	height: 6.6rem;
+	width: 6rem;
+	line-height: 6.6rem;
+	text-align: center;
+	background: #006699;
+	color: #FFFFFF;
+	text-align: center;
+	text-transform: uppercase;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+#pdf-block a i {
+	font-size: 1.6rem;
+	line-height: inherit;
+}
+#pdf-block a:hover {
+	background: #000000;
+}
+
 /*# sourceMappingURL=main.css.map */
